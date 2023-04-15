@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.body {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+
+  background: #ffffff;
+}
+.header {
+  position: relative;
+  width: 1415px;
+  height: 786px;
+  margin: 35px 105px 0px 80px;
+  border-style: dashed;
+  border-color: #202336;
+}
+.header_title {
+  position: absolute;
+  width: 356px;
+  height: 160px;
+  margin: 165px 950px 461px 109px;
+  border-style: dashed;
+  border-color: #202336;
+}
+.header_title_name {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+
+  color: #202336;
+
+  mix-blend-mode: normal;
+}
+.header_img {
+  position: absolute;
+  width: 687px;
+  height: 654px;
+  margin: 132px 0px 0px 728px;
+
+  background: url(thousand-01.png);
+}
+.menu {
+  position: relative;
+  width: 663px;
+  height: 60px;
+  margin: 0px 85px 714px 667px;
+  border-style: dashed;
+  border-color: #202336;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+a:visited {
+  color: #202336;
+}
+.menu_section01 {
+  margin: 21px 617px 20px 0px;
+  border-style: dashed;
+  border-color: #202336;
+  position: absolute;
+}
+.menu_section01_text01 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.menu_section02 {
+  margin: 21px 487px 20px 81px;
+  border-style: dashed;
+  border-color: #202336;
+  position: absolute;
+}
+
+.menu_section03 {
+  margin: 21px 407px 20px 210px;
+  border-style: dashed;
+  border-color: #202336;
+  position: absolute;
+}
+.menu_section04 {
+  margin: 21px 316px 20px 290px;
+  border-style: dashed;
+  border-color: #202336;
+  position: absolute;
+}
+.menu_section_text {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #b8becd;
+}
+.menu_buttom01 {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+  background: #ffffff;
+  margin: 8px 150px 8px 381px;
+  width: 132px;
+  height: 44px;
+  color: #fb8f1d;
+}
+
+.menu_buttom02 {
+  position: absolute;
+  width: 132px;
+  height: 44px;
+  margin: 8px 0px 9px 531px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  border: 0px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+.form {
+  width: 471px;
+  height: 344px;
+  border-style: dashed;
+  border-color: #202336;
+  margin: 10px;
+  position: absolute;
+  box-sizing: border-box;
+}

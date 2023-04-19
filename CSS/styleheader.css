@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  margin: 0px;
+  padding-top: 35px;
+  padding-left: 80px;
+  padding-right: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed black;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header__logo {
+  border: 1px dashed black;
+}
+.header__nav {
+  border: 1px dashed black;
+}
+
+.container {
+  padding-left: 111px;
+  padding-right: 85px;
+}
+a {
+  text-decoration: none;
+}
+
+.header__link {
+  padding-right: 34px;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #b8becd;
+}
+.header__link:hover {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: black;
+}
+
+.button01 {
+  background: #fb8f1d;
+  border-radius: 8px;
+  border: #fb8f1d;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 40px;
+  width: 132px;
+  margin-right: 18px;
+}
+.button02 {
+  background: #fb8f1d;
+  border-radius: 8px;
+  border: #fb8f1d;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 40px;
+  width: 132px;
+}
+.button01:hover {
+  color: #fb8f1d;
+  background-color: white;
+
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+.button02:hover {
+  color: #fb8f1d;
+  background-color: white;
+
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}

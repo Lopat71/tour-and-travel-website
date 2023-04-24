@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap");
+
+.section-Learnmore {
+  width: 100%;
+  display: flex;
+  margin-top: 286px;
+}
+.section-Learnmore__img {
+  margin-top: 16px;
+}
+.section-Learnmore__text {
+  display: flex;
+  margin-left: 102px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-Learnmore__text-title {
+  width: 450px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.section-Learnmore__text-p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  /* or 176% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+.section-Learnmore__text-button {
+  width: 164px;
+  background: #fb8f1d;
+  border: #fb8f1d;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  /* identical to box height, or 375% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.section-Learnmore__text-button:hover {
+  color: #fb8f1d;
+  background-color: white;
+
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+
+.section-Learnmore-svgtop {
+  position: absolute;
+  margin-left: 685px;
+}
+.section-Learnmore-svgright {
+  position: absolute;
+  margin-left: 1088px;
+  margin-top: 378px;
+}

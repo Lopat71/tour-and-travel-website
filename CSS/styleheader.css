@@ -20,16 +20,14 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: 1px dashed black;
+
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
 }
 .header__logo {
-  border: 1px dashed black;
 }
 .header__nav {
-  border: 1px dashed black;
 }
 
 .header {

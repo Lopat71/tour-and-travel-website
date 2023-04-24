@@ -5,8 +5,6 @@
 .section-finder {
   width: 100%;
   display: flex;
-
-  border: 1px dashed black;
 }
 .section-finder__title-form {
   display: flex;
@@ -18,7 +16,6 @@
 .section-finder__title {
   width: 356px;
 
-  margin: 0px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
@@ -62,8 +59,7 @@
 }
 select {
   width: 220px;
-  padding-top: 21px;
-  padding-bottom: 21px;
+
   padding-left: 31px;
   border: 0.8px solid #afb0b9;
   border-radius: 6px;
@@ -71,11 +67,13 @@ select {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 32px;
+  line-height: 50px;
 
   color: #4a4c53;
 
   mix-blend-mode: normal;
+  margin-bottom: 35px;
+  appearance: none;
 }
 
 input {
@@ -107,5 +105,26 @@ input:hover {
   justify-content: space-between;
 }
 .section-finder__select-option {
-  display: flex;
+}
+
+.section-finder-svgtop {
+  position: absolute;
+  margin-top: 67px;
+  margin-left: 449px;
+}
+
+.section-finder-svgbottom {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 652px;
+}
+.section-finder-svgleft {
+  position: absolute;
+  margin-top: 350px;
+}
+
+.section-finder__select-arrow {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 27px;
 }

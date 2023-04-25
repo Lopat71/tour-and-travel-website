@@ -1,0 +1,77 @@
+.section-Download {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 231px;
+  width: 1200px;
+}
+.section-Download__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.section-Download__text-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  /* or 139% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.section-Download__text-p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  /* or 176% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+.section-Download__text-button {
+  width: 180px;
+  background: #fb8f1d;
+  border: #fb8f1d;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+  /* identical to box height, or 375% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.section-Download__text-button:hover {
+  color: #fb8f1d;
+  background-color: white;
+
+  border: 1px solid #fb8f1d;
+  border-radius: 8px;
+}
+.section-Download__img {
+  padding-left: 80px;
+}
+.section-Download__svgright {
+  position: absolute;
+  margin-left: 1187px;
+  margin-top: 37px;
+}
+.section-Download__svgleft {
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 85px;
+}
+.section-Download__svgbottom {
+  position: absolute;
+  margin-left: 416px;
+  margin-top: 420px;
+}

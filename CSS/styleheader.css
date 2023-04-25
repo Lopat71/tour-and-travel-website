@@ -59,7 +59,7 @@ a {
   color: black;
 }
 
-.button01 {
+.button-Login {
   background: #fb8f1d;
   border-radius: 8px;
   border: #fb8f1d;
@@ -72,7 +72,7 @@ a {
   width: 132px;
   margin-right: 18px;
 }
-.button02 {
+.button-Register {
   background: #fb8f1d;
   border-radius: 8px;
   border: #fb8f1d;
@@ -84,14 +84,14 @@ a {
   line-height: 40px;
   width: 132px;
 }
-.button01:hover {
+.button-Login:hover {
   color: #fb8f1d;
   background-color: white;
 
   border: 1px solid #fb8f1d;
   border-radius: 8px;
 }
-.button02:hover {
+.button-Register:hover {
   color: #fb8f1d;
   background-color: white;
 

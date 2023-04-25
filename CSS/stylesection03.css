@@ -72,9 +72,39 @@
   margin-left: 622px;
 }
 .section-Viewall__Pictures-block {
+  position: relative;
 }
 
 .section-Viewall__Pictures-rectangle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+
   width: 120px;
-  background-color: #fb8f1d;
+  background: #ffffff;
+  border-radius: 0px 6px 0px 0px;
+  padding-top: 11px;
+}
+.section-Viewall__Pictures-rectangle-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+
+  color: #042521;
+
+  mix-blend-mode: normal;
+}
+.section-Viewall__Pictures-rectangle-place {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: #80918e;
+
+  mix-blend-mode: normal;
 }

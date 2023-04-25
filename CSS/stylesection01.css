@@ -107,18 +107,18 @@ input:hover {
 .section-finder__select-option {
 }
 
-.section-finder-svgtop {
+.section-finder__svgtop {
   position: absolute;
   margin-top: 67px;
   margin-left: 449px;
 }
 
-.section-finder-svgbottom {
+.section-finder__svgbottom {
   position: absolute;
   margin-top: 600px;
   margin-left: 652px;
 }
-.section-finder-svgleft {
+.section-finder__svgleft {
   position: absolute;
   margin-top: 350px;
 }

@@ -1,0 +1,80 @@
+.section-Viewall {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 119px;
+  width: 100%;
+  margin-top: 262px;
+}
+.section-Viewall__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.section-Viewall__menu-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.section-Viewall__Pictures {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  padding-bottom: 59px;
+}
+.section-Viewall__menu-link {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+
+  color: #fb8f1d;
+
+  mix-blend-mode: normal;
+}
+.section-Viewall__Pictures-svg {
+  background: #c4c4c4;
+  border-radius: 8px;
+}
+.arrow {
+  border: solid #fb8f1d;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+.right {
+  -webkit-transform: rotate(-45deg);
+}
+
+.section-Viewall__svgtop {
+  position: absolute;
+  margin-left: 1048px;
+}
+.section-Viewall__svgright {
+  position: absolute;
+  margin-top: 329px;
+}
+.section-Viewall__svgbottom {
+  position: absolute;
+  margin-top: 512px;
+  margin-left: 622px;
+}
+.section-Viewall__Pictures-block {
+}
+
+.section-Viewall__Pictures-rectangle {
+  width: 120px;
+  background-color: #fb8f1d;
+}

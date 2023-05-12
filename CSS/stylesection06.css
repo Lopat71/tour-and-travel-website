@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 56px;
+  margin-top: 57px;
 }
 .section-Readmore__menu-title {
   font-family: "Playfair Display", serif;
@@ -62,9 +63,12 @@
 
   flex-direction: column;
   justify-content: space-between;
-  width: 266px;
+  width: 261px;
 }
 .section-Readmore__Pictures-svg {
+  background: #c4c4c4;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 .section-Readmore__Pictures-title {
   font-family: "Inter", sans-serif;
@@ -78,6 +82,7 @@
   color: #000000;
 
   mix-blend-mode: normal;
+  margin-top: 13px;
 }
 .section-Readmore__Pictures-subtitle {
   font-family: "Inter", sans-serif;
@@ -90,6 +95,7 @@
   color: #7d7987;
 
   mix-blend-mode: normal;
+  margin-top: 13px;
 }
 .section-Readmore__Pictures-link {
   font-family: "Inter", sans-serif;
@@ -102,8 +108,19 @@
   color: #fb8f1d;
 
   mix-blend-mode: normal;
+  margin-top: 23px;
 }
-.bbb {
-  background: #032204;
-  border-radius: 8px;
+
+.section-Readmore__svgtop {
+  position: absolute;
+  margin-left: 501px;
+}
+.section-Readmore__svgleft {
+  position: absolute;
+  margin-top: 425px;
+}
+.section-Readmore__svgbottom {
+  position: absolute;
+  margin-top: 664px;
+  margin-left: 837px;
 }

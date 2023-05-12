@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+
+.section-Readmore {
+  display: flex;
+  flex-direction: column;
+  margin-top: 213px;
+  margin-left: 97px;
+  width: 100%;
+}
+.section-Readmore__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.section-Readmore__menu-title {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+  /* identical to box height, or 139% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.section-Readmore__menu-link {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  /* identical to box height, or 353% */
+
+  display: flex;
+  align-items: center;
+
+  color: #fb8f1d;
+
+  mix-blend-mode: normal;
+}
+.arrow {
+  border: solid #fb8f1d;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 5px;
+}
+.right {
+  -webkit-transform: rotate(-45deg);
+}
+.section-Readmore__Pictures {
+  display: flex;
+
+  justify-content: space-between;
+}
+.section-Readmore__Pictures-block {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  width: 266px;
+}
+.section-Readmore__Pictures-svg {
+}
+.section-Readmore__Pictures-title {
+  font-family: "Inter", sans-serif;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.section-Readmore__Pictures-subtitle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  /* or 173% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+}
+.section-Readmore__Pictures-link {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  /* identical to box height, or 187% */
+
+  color: #fb8f1d;
+
+  mix-blend-mode: normal;
+}
+.bbb {
+  background: #032204;
+  border-radius: 8px;
+}

@@ -5,7 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 .section-Testimonials {
+  width: 1180px;
   margin-top: 248px;
+  padding-left: 96px;
+  padding-right: 324px;
   display: flex;
   justify-content: space-around;
 }

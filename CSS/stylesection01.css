@@ -3,19 +3,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 
 .section-finder {
-  width: 100%;
+  width: 1415px;
   display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  padding-left: 80px;
+  padding-right: 105px;
 }
-.section-finder__title-form {
+.section-finder__info {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding-left: 109px;
+  justify-content: space-between;
 }
 .section-finder__title {
   width: 356px;
-
+  padding-left: 109px;
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
@@ -29,11 +31,12 @@
 
 .section-finder__img {
   width: 687px;
-  align-self: flex-end;
 }
 
 .section-finder__form {
   width: 471px;
+  padding-left: 111px;
+  padding-bottom: 47px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -104,13 +107,11 @@ input:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.section-finder__select-option {
-}
 
 .section-finder__svgtop {
   position: absolute;
-  margin-top: 67px;
-  margin-left: 449px;
+  margin-top: 20px;
+  margin-left: 468px;
 }
 
 .section-finder__svgbottom {
@@ -120,7 +121,7 @@ input:hover {
 }
 .section-finder__svgleft {
   position: absolute;
-  margin-top: 350px;
+  margin-top: 300px;
 }
 
 .section-finder__select-arrow {

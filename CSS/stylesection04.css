@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin-top: 231px;
-  width: 1200px;
+  width: 1205px;
+  padding-left: 240px;
+  padding-right: 154px;
 }
 .section-Download__text {
   display: flex;
@@ -58,7 +60,7 @@
   border-radius: 8px;
 }
 .section-Download__img {
-  padding-left: 80px;
+  padding-right: 76px;
 }
 .section-Download__svgright {
   position: absolute;

@@ -2,7 +2,7 @@
 
 .footer {
   margin-top: 196px;
-  width: 1200px;
+  width: 1640px;
   display: flex;
   flex-direction: column;
   background: #f9f9fb;
@@ -10,7 +10,7 @@
 
 .footer__link {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 70px;
 }
 .footer__link-logo {
@@ -18,7 +18,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .footer__link-subtitle {
   font-family: "Mulish", sans-serif;
@@ -80,8 +80,7 @@
 .footer__social-line {
   margin-bottom: 30px;
 }
-.footer__social-link {
-}
+
 .footer__social-img {
   margin-right: 35px;
 }

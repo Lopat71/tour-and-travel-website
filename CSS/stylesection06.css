@@ -3,18 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
 
 .section-Readmore {
+  width: 1222px;
   display: flex;
   flex-direction: column;
   margin-top: 213px;
-  margin-left: 97px;
-  width: 100%;
 }
 .section-Readmore__menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 56px;
-  margin-top: 57px;
+  padding-bottom: 56px;
+  padding-top: 57px;
+  padding-left: 97px;
 }
 .section-Readmore__menu-title {
   font-family: "Playfair Display", serif;
@@ -57,6 +57,7 @@
   display: flex;
 
   justify-content: space-between;
+  padding-left: 97px;
 }
 .section-Readmore__Pictures-block {
   display: flex;
